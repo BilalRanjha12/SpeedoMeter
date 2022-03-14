@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="activity_Horizontal_Margin">16dp</dimen>
+    <dimen name="activity_Vertical_Margin">16dp</dimen>
+    <dimen name="feb_nargin">16dp</dimen>
+    <dimen name="row_padding_vertical">10dp</dimen>
+</resources>
