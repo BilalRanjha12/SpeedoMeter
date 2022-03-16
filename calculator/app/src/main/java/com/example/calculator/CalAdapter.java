@@ -21,7 +21,6 @@ public class CalAdapter extends RecyclerView.Adapter<CalAdapter.Calviewholder> {
     public int getItemCount() {
         return 0;
     }
-
     public class Calviewholder extends RecyclerView.ViewHolder {
         public Calviewholder(@NonNull View itemView) {
             super(itemView);
