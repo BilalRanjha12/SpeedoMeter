@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:layout_marginVertical="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/iv_halwa"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_88sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:src="@drawable/halwa" />
+
+        <TextView
+            android:id="@+id/tv_halwa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="italic|bold"
+            android:layout_toRightOf="@+id/iv_halwa"
+            />
+
+        <TextView
+            android:id="@+id/discription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/made_by_ahad"
+            android:layout_below="@+id/tv_halwa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="italic|bold"
+            android:layout_toRightOf="@+id/iv_halwa"
+            />
+    
+
+    </RelativeLayout>
