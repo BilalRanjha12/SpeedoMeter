@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/icon_filter"
+        android:title="@string/shr_filter_title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_products"
+        android:title="addProducts"
+        app:showAsAction="never" />
+</menu>

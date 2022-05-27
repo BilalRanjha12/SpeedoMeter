@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "11552671799",
+    "project_id": "ecommercestore-daaeb",
+    "storage_bucket": "ecommercestore-daaeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11552671799:android:9d97627e1e20a10a8557b2",
+        "android_client_info": {
+          "package_name": "com.innova.ecommercestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11552671799-54nd3uo2a04e3ughd8i91u6filj2k48o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innova.ecommercestore",
+            "certificate_hash": "64db255489342c464c81ff0a27275e9ddbf7eaaa"
+          }
+        },
+        {
+          "client_id": "11552671799-u7fp8iu6q6jrqvd3mftbr3k4a091m267.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbO6LYnaup-hRiSOee9LGFKkkh0hrK-cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11552671799-u7fp8iu6q6jrqvd3mftbr3k4a091m267.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

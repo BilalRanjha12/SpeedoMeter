@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+<!--    android:paddingBottom="@dimen/activity_vertical_margin"-->
+<!--    android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--    android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--    android:paddingTop="@dimen/activity_vertical_margin"-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Diff Calculator"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Start Date:" />
+
+    <TextView
+        android:id="@+id/tvStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="06/09/2011" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="End Date:" />
+
+    <TextView
+        android:id="@+id/tvEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="29/10/2013" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Difference (Standard)" />
+
+    <TextView
+        android:id="@+id/tvDifferenceStandard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Difference (Custom)" />
+
+    <TextView
+        android:id="@+id/tvDifferenceCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age Calculator"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Birth Date:" />
+
+    <TextView
+        android:id="@+id/tvBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Age (Standard)" />
+
+    <TextView
+        android:id="@+id/tvAgeStandard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Age (Custom)" />
+
+    <TextView
+        android:id="@+id/tvAgeCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result" />
+</LinearLayout>
